@@ -5,11 +5,17 @@ var request = require("request");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    console.log(req.query.keyword);
+    console.log("REQ.QUERY.KEYWORD : " + req.query.keyword);
+    console.log("REQ.QUERY.COORDINATE : " + req.query.coordinate);
+
     var _query = req.query.keyword;
+    var _coordinate = req.query.coordinate;
+    // console.log(_coordinate[0]);
+    // console.log(_coordinate[1]);
+
     var options = { method: 'GET',
     url: 'https://naveropenapi.apigw.ntruss.com/map-place/v1/search',
-    qs: { query: _query, coordinate: '127,37' },
+    qs: { query: _query, coordinate: _coordinate },
     headers:
         { 'X-NCP-APIGW-API-KEY': 'KyJQ1dl1gU6an8IalWdW428EmOYChrwzS30GEtVP',
           'X-NCP-APIGW-API-KEY-ID': 'sx4y6v49bc' } };
