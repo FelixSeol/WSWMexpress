@@ -4,21 +4,24 @@ var request = require("request");
 // var fetch = require('node-fetch');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-    console.log("REQ.QUERY.KEYWORD : " + req.query.keyword);
-    console.log("REQ.QUERY.COORDINATE : " + req.query.coordinate);
-
-    var _query = req.query.keyword;
+router.get('/searchPlace', function(req, res, next) {
+    var _keyword = req.query.keyword;
     var _coordinate = req.query.coordinate;
-    // console.log(_coordinate[0]);
+    var _radius = req.query.radius;
+    var _x = _coordinate.split(',')[0]
+    var _y = _coordinate.split(',')[1]
     // console.log(_coordinate[1]);
+    console.log("REQ.QUERY.KEYWORD      : " + _keyword);
+    console.log("REQ.QUERY.COORDINATE   : " + _coordinate);
+    console.log("REQ.QUERY.DISTANCE     : " + _radius);
+    console.log("REQ.QUERY.X(lon)       : " + _x);
+    console.log("REQ.QUERY.Y(lat)       : " + _y);
 
     var options = { method: 'GET',
-    url: 'https://naveropenapi.apigw.ntruss.com/map-place/v1/search',
-    qs: { query: _query, coordinate: _coordinate },
+    url: 'https://dapi.kakao.com/v2/local/search/keyword.json',
+    qs: { y: _y, x: _x, query: _keyword , radius: _radius, size: 10},
     headers:
-        { 'X-NCP-APIGW-API-KEY': 'KyJQ1dl1gU6an8IalWdW428EmOYChrwzS30GEtVP',
-          'X-NCP-APIGW-API-KEY-ID': 'sx4y6v49bc' } };
+        { 'Authorization': 'KakaoAK eddb65c6ffd9f693777d35d9ff66e70e' } };
 
   request(options, function (error, response, body) {
     if (error) throw new Error(error);
