@@ -1,0 +1,157 @@
+[33m[nodemon] 1.18.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `npm start`[39m
+
+> wswmexpress@0.0.0 start /home/felixxseol/dev/WSWMexpress
+> node ./bin/www
+
+REQ.QUERY.KEYWORD : 아파트
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":108951,"count":5},"places":[{"name":"독립문삼호아파트입주자대표회의","road_address":"서울특별시 서대문구 독립문로 10","jibun_address":"서울특별시 서대문구 영천동 100","phone_number":"02-365-2461","x":"126.9587193","y":"37.5701036","distance":1775.327927144288,"sessionId":"PHB1fmoBe9kwkY1_ytcc"},{"name":"경희궁자이3단지아파트","road_address":"","jibun_address":"서울특별시 종로구 평동 4-3","phone_number":"","x":"126.9659909","y":"37.5691438","distance":1127.6274584467642,"sessionId":"z0N2fmoBLhmWpuc1uZkq"},{"name":"광화문풍림스페이스본아파트","road_address":"서울특별시 종로구 사직로8길 4","jibun_address":"서울특별시 종로구 사직동 9","phone_number":"","x":"126.9686008","y":"37.5744035","distance":1221.881581915749,"sessionId":"H_x1fmoBZphKmN8Q0rh0"},{"name":"충무로엘크루메트로시티2차아파트","road_address":"서울특별시 중구 퇴계로49길 14","jibun_address":"서울특별시 중구 충무로5가 36-2","phone_number":"","x":"126.9999580","y":"37.5634352","distance":1932.3631316536057,"sessionId":"1j52fmoBLhmWpuc1SJ5m"},{"name":"경희궁자이2단지아파트","road_address":"서울특별시 종로구 송월길 99","jibun_address":"서울특별시 종로구 홍파동 199","phone_number":"","x":"126.9638823","y":"37.5708753","distance":1362.692582106838,"sessionId":"XAR1fmoBa_oNbPaCXrkS"}],"errorMessage":""}
+[0mGET /?keyword=%EC%95%84%ED%8C%8C%ED%8A%B8&coordinate=126.9783882,37.5666103 [32m200 [0m175.724 ms - 1644[0m
+REQ.QUERY.KEYWORD : 아팥
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":108988,"count":5},"places":[{"name":"광화문풍림스페이스본아파트","road_address":"서울특별시 종로구 사직로8길 4","jibun_address":"서울특별시 종로구 사직동 9","phone_number":"","x":"126.9686008","y":"37.5744035","distance":1221.881581915749,"sessionId":"H_x1fmoBZphKmN8Q0rh0"},{"name":"경희궁자이3단지아파트","road_address":"","jibun_address":"서울특별시 종로구 평동 4-3","phone_number":"","x":"126.9659909","y":"37.5691438","distance":1127.6274584467642,"sessionId":"z0N2fmoBLhmWpuc1uZkq"},{"name":"경희궁자이2단지아파트","road_address":"서울특별시 종로구 송월길 99","jibun_address":"서울특별시 종로구 홍파동 199","phone_number":"","x":"126.9638823","y":"37.5708753","distance":1362.692582106838,"sessionId":"XAR1fmoBa_oNbPaCXrkS"},{"name":"독립문극동아파트","road_address":"서울특별시 서대문구 독립문공원길 17","jibun_address":"서울특별시 서대문구 현저동 200","phone_number":"","x":"126.9568617","y":"37.5722894","distance":1998.2195694265906,"sessionId":"azx2fmoBLhmWpuc1I4u4"},{"name":"덕수궁롯데캐슬아파트","road_address":"서울특별시 중구 서소문로9길 28","jibun_address":"서울특별시 중구 순화동 217","phone_number":"","x":"126.9702356","y":"37.5638607","distance":780.3821912903867,"sessionId":"ODt2fmoBLhmWpuc1EZ_u"}],"errorMessage":""}
+[0mGET /?keyword=%EC%95%84%ED%8C%A5&coordinate=126.9783882,37.5666103 [32m200 [0m51.983 ms - 1599[0m
+REQ.QUERY.KEYWORD : 아파트
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":108951,"count":5},"places":[{"name":"광화문풍림스페이스본아파트","road_address":"서울특별시 종로구 사직로8길 4","jibun_address":"서울특별시 종로구 사직동 9","phone_number":"","x":"126.9686008","y":"37.5744035","distance":1221.881581915749,"sessionId":"H_x1fmoBZphKmN8Q0rh0"},{"name":"덕수궁롯데캐슬아파트","road_address":"서울특별시 중구 서소문로9길 28","jibun_address":"서울특별시 중구 순화동 217","phone_number":"","x":"126.9702356","y":"37.5638607","distance":780.3821912903867,"sessionId":"ODt2fmoBLhmWpuc1EZ_u"},{"name":"경희궁자이2단지아파트","road_address":"서울특별시 종로구 송월길 99","jibun_address":"서울특별시 종로구 홍파동 199","phone_number":"","x":"126.9638823","y":"37.5708753","distance":1362.692582106838,"sessionId":"XAR1fmoBa_oNbPaCXrkS"},{"name":"정동상림원아파트","road_address":"서울특별시 중구 정동길 21-31","jibun_address":"서울특별시 중구 정동 15-6","phone_number":"02-545-1153","x":"126.9709067","y":"37.5682744","distance":684.4072721226122,"sessionId":"zG11fmoBe9kwkY1_h23-"},{"name":"무악현대아파트","road_address":"서울특별시 종로구 통일로 246-20","jibun_address":"서울특별시 종로구 무악동 82","phone_number":"02-722-0422","x":"126.9603060","y":"37.5751953","distance":1856.4249809410467,"sessionId":"-8x2fmoBOAUY6uUlOAoh"}],"errorMessage":""}
+[0mGET /?keyword=%EC%95%84%ED%8C%8C%ED%8A%B8&coordinate=126.9783882,37.5666103 [32m200 [0m59.385 ms - 1634[0m
+REQ.QUERY.KEYWORD : 아팥
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":108988,"count":5},"places":[{"name":"광화문풍림스페이스본아파트","road_address":"서울특별시 종로구 사직로8길 4","jibun_address":"서울특별시 종로구 사직동 9","phone_number":"","x":"126.9686008","y":"37.5744035","distance":1221.881581915749,"sessionId":"H_x1fmoBZphKmN8Q0rh0"},{"name":"경희궁자이2단지아파트","road_address":"서울특별시 종로구 송월길 99","jibun_address":"서울특별시 종로구 홍파동 199","phone_number":"","x":"126.9638823","y":"37.5708753","distance":1362.692582106838,"sessionId":"XAR1fmoBa_oNbPaCXrkS"},{"name":"독립문극동아파트","road_address":"서울특별시 서대문구 독립문공원길 17","jibun_address":"서울특별시 서대문구 현저동 200","phone_number":"","x":"126.9568617","y":"37.5722894","distance":1998.2195694265906,"sessionId":"azx2fmoBLhmWpuc1I4u4"},{"name":"덕수궁롯데캐슬아파트","road_address":"서울특별시 중구 서소문로9길 28","jibun_address":"서울특별시 중구 순화동 217","phone_number":"","x":"126.9702356","y":"37.5638607","distance":780.3821912903867,"sessionId":"ODt2fmoBLhmWpuc1EZ_u"},{"name":"무악현대아파트","road_address":"서울특별시 종로구 통일로 246-20","jibun_address":"서울특별시 종로구 무악동 82","phone_number":"02-722-0422","x":"126.9603060","y":"37.5751953","distance":1856.4249809410467,"sessionId":"-8x2fmoBOAUY6uUlOAoh"}],"errorMessage":""}
+[0mGET /?keyword=%EC%95%84%ED%8C%A5&coordinate=126.9783882,37.5666103 [32m200 [0m55.900 ms - 1644[0m
+REQ.QUERY.KEYWORD : 아팥파트
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":0,"count":0},"places":[],"errorMessage":""}
+[0mGET /?keyword=%EC%95%84%ED%8C%A5%ED%8C%8C%ED%8A%B8&coordinate=126.9783882,37.5666103 [32m200 [0m37.755 ms - 97[0m
+REQ.QUERY.KEYWORD : 아파트
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":108951,"count":5},"places":[{"name":"광화문풍림스페이스본아파트","road_address":"서울특별시 종로구 사직로8길 4","jibun_address":"서울특별시 종로구 사직동 9","phone_number":"","x":"126.9686008","y":"37.5744035","distance":1221.881581915749,"sessionId":"H_x1fmoBZphKmN8Q0rh0"},{"name":"경희궁자이2단지아파트","road_address":"서울특별시 종로구 송월길 99","jibun_address":"서울특별시 종로구 홍파동 199","phone_number":"","x":"126.9638823","y":"37.5708753","distance":1362.692582106838,"sessionId":"XAR1fmoBa_oNbPaCXrkS"},{"name":"덕수궁롯데캐슬아파트","road_address":"서울특별시 중구 서소문로9길 28","jibun_address":"서울특별시 중구 순화동 217","phone_number":"","x":"126.9702356","y":"37.5638607","distance":780.3821912903867,"sessionId":"ODt2fmoBLhmWpuc1EZ_u"},{"name":"돈의문동부센트레빌아파트","road_address":"서울특별시 서대문구 독립문로14길 33","jibun_address":"서울특별시 서대문구 냉천동 261","phone_number":"","x":"126.9613883","y":"37.5663289","distance":1497.65874016424,"sessionId":"s3F1fmoBe9kwkY1_3vvk"},{"name":"충정아파트","road_address":"서울특별시 서대문구 충정로 30","jibun_address":"서울특별시 서대문구 충정로3가 250-5","phone_number":"","x":"126.9640355","y":"37.5614688","distance":1387.3140167807887,"sessionId":"ffd1fmoBZphKmN8QfvJv"}],"errorMessage":""}
+[0mGET /?keyword=%EC%95%84%ED%8C%8C%ED%8A%B8&coordinate=126.9783882,37.5666103 [32m200 [0m57.204 ms - 1645[0m
+REQ.QUERY.KEYWORD : 중림장
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":1,"count":1},"places":[{"name":"중림장설렁탕","road_address":"서울특별시 중구 청파로 459-1","jibun_address":"서울특별시 중구 중림동 468","phone_number":"02-392-7743","x":"126.9676871","y":"37.5602964","distance":1175.0314032402634,"sessionId":"ZfZ1fmoBZphKmN8Qa8tt"}],"errorMessage":""}
+[0mGET /?keyword=%EC%A4%91%EB%A6%BC%EC%9E%A5&coordinate=126.9783882,37.5666103 [32m200 [0m125.593 ms - 396[0m
+REQ.QUERY.KEYWORD : 흑석
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":578,"count":5},"places":[{"name":"흑석역 9호선","road_address":"서울특별시 동작구 현충로 90","jibun_address":"서울특별시 동작구 흑석동 4","phone_number":"02-2656-0919","x":"126.9634070","y":"37.5091762","distance":6517.161746586993,"sessionId":"XAF2fmoBZphKmN8QJTCI"},{"name":"닥터로빈 흑석점","road_address":"서울특별시 동작구 현충로 124 1, 2F","jibun_address":"서울특별시 동작구 흑석동 42-1 1, 2F","phone_number":"02-3280-3103","x":"126.9674301","y":"37.5065179","distance":6746.916839276736,"sessionId":"pwR1fmoBa_oNbPaCVTz9"},{"name":"교촌치킨 흑석1호점","road_address":"서울특별시 동작구 흑석로 116 1층,2층","jibun_address":"서울특별시 동작구 흑석동 180-6 1층,2층","phone_number":"02-814-3377","x":"126.9616814","y":"37.5087132","distance":6599.794548163472,"sessionId":"DzF1fmoBLhmWpuc1WHS0"},{"name":"흑석동동양아파트","road_address":"서울특별시 동작구 서달로1길 17","jibun_address":"서울특별시 동작구 흑석동 328","phone_number":"","x":"126.9585765","y":"37.5004204","distance":7559.367411575036,"sessionId":"cnZ2fmoBe9kwkY1_O5GM"},{"name":"흑석동유앤미아파트","road_address":"서울특별시 동작구 서달로 83","jibun_address":"서울특별시 동작구 흑석동 329","phone_number":"","x":"126.9597721","y":"37.5001922","distance":7560.486239745997,"sessionId":"SMp2fmoBOAUY6uUlFzhQ"}],"errorMessage":""}
+[0mGET /?keyword=%ED%9D%91%EC%84%9D&coordinate=126.9783882,37.5666103 [32m200 [0m130.350 ms - 1653[0m
+REQ.QUERY.KEYWORD : undefined
+REQ.QUERY.COORDINATE : undefined
+{"status":"INVALID_REQUEST","errorMessage":"coordinate is INVALID"}
+[0mGET / [32m200 [0m127.125 ms - 77[0m
+[0mGET /favicon.ico [33m404 [0m3.581 ms - 150[0m
+REQ.QUERY.KEYWORD : 흑석역
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":26,"count":5},"places":[{"name":"흑석역 9호선","road_address":"서울특별시 동작구 현충로 90","jibun_address":"서울특별시 동작구 흑석동 4","phone_number":"02-2656-0919","x":"126.9634070","y":"37.5091762","distance":6517.161746586993,"sessionId":"XAF2fmoBZphKmN8QJTCI"},{"name":"흑석역(중앙대입구)3번출구","road_address":"","jibun_address":"서울특별시 동작구 흑석동","phone_number":"","x":"126.9638370","y":"37.5084121","distance":6592.85933069607,"sessionId":"ucp2fmoBOAUY6uUlGVVr"},{"name":"흑석역(중앙대입구)1번출구","road_address":"","jibun_address":"서울특별시 동작구 흑석동","phone_number":"","x":"126.9635781","y":"37.5092983","distance":6500.832492222848,"sessionId":"EkJ2fmoBLhmWpuc1ixXK"},{"name":"흑석역(중앙대입구)2번출구","road_address":"","jibun_address":"서울특별시 동작구 흑석동","phone_number":"","x":"126.9641676","y":"37.5086201","distance":6564.566370505021,"sessionId":"asB1fmoBOAUY6uUlbq8G"},{"name":"흑석역1번출구자전거대여소","road_address":"","jibun_address":"서울특별시 동작구 흑석동","phone_number":"","x":"126.9636150","y":"37.5093800","distance":6491.286112972735,"sessionId":"8S91fmoBLhmWpuc1LhkM"}],"errorMessage":""}
+[0mGET /?keyword=%ED%9D%91%EC%84%9D%EC%97%AD&coordinate=126.9783882,37.5666103 [32m200 [0m48.233 ms - 1465[0m
+REQ.QUERY.KEYWORD : undefined
+REQ.QUERY.COORDINATE : undefined
+{"status":"INVALID_REQUEST","errorMessage":"coordinate is INVALID"}
+[0mGET / [36m304 [0m52.990 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.542 ms - 150[0m
+REQ.QUERY.KEYWORD : 독립
+REQ.QUERY.COORDINATE : 126.9826754,37.5430859
+{"status":"OK","meta":{"totalCount":745,"count":5},"places":[{"name":"독립문역 3호선","road_address":"서울특별시 서대문구 통일로 247","jibun_address":"서울특별시 서대문구 현저동 101","phone_number":"02-6110-3261","x":"126.9579287","y":"37.5744604","distance":4111.743517064082,"sessionId":"b1GZg2oBLhmWpuc1YTTJ"},{"name":"독립문","road_address":"","jibun_address":"서울특별시 서대문구 현저동 941","phone_number":"","x":"126.9595516","y":"37.5724281","distance":3844.4878977267263,"sessionId":"jR2Zg2oBZphKmN8Qxt5Y"},{"name":"독립카츠","road_address":"서울특별시 마포구 연남로 19","jibun_address":"서울특별시 마포구 연남동 566-56","phone_number":"02-333-1574","x":"126.9224339","y":"37.5613985","distance":5683.769516822944,"sessionId":"SteYg2oBOAUY6uUly4xh"},{"name":"독립문삼호아파트","road_address":"서울특별시 서대문구 독립문로 10 독립문삼호아파트","jibun_address":"서울특별시 서대문구 영천동 100","phone_number":"","x":"126.9587193","y":"37.5701036","distance":3669.6918562972623,"sessionId":"OiGYg2oBa_oNbPaC_QZZ"},{"name":"독립문역1번출구","road_address":"","jibun_address":"서울특별시 종로구 무악동","phone_number":"","x":"126.9573281","y":"37.5751421","distance":4204.017850468721,"sessionId":"wuWZg2oBOAUY6uUlxEi1"}],"errorMessage":""}
+[0mGET /?keyword=%EB%8F%85%EB%A6%BD&coordinate=126.9826754,37.5430859 [32m200 [0m49.392 ms - 1542[0m
+Killed
+[33m[nodemon] 1.18.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `npm start`[39m
+
+> wswmexpress@0.0.0 start /home/felixxseol/dev/WSWMexpress
+> node ./bin/www
+
+REQ.QUERY.KEYWORD : undefined
+REQ.QUERY.COORDINATE : undefined
+{"status":"INVALID_REQUEST","errorMessage":"coordinate is INVALID"}
+[0mGET / [36m304 [0m82.459 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m3.542 ms - 150[0m
+REQ.QUERY.KEYWORD : ㄴㄹㅇ
+REQ.QUERY.COORDINATE : 126.9495407,37.554906
+{"status":"OK","meta":{"totalCount":3559,"count":5},"places":[{"name":"놀러와볼링센터","road_address":"서울특별시 서대문구 이화여대1길 10 예스에이피엠","jibun_address":"서울특별시 서대문구 대현동 145","phone_number":"02-6373-7005","x":"126.9449269","y":"37.5576484","distance":507.9884723321868,"sessionId":"TlPmjWoBa_oNbPaCJFZJ"},{"name":"OK노래연습장","road_address":"서울특별시 마포구 토정로 314","jibun_address":"서울특별시 마포구 용강동 51-1","phone_number":"","x":"126.9436120","y":"37.5396280","distance":1776.2270035859092,"sessionId":"6LDmjWoBe9kwkY1_Nbv-"},{"name":"나려요가&필라테스","road_address":"서울특별시 서대문구 신촌역로 31","jibun_address":"서울특별시 서대문구 대현동 110-1","phone_number":"02-362-5557","x":"126.9418991","y":"37.5588507","distance":803.2863283499285,"sessionId":"gnDljWoBLhmWpuc1Ome8"},{"name":"나라와인 현대백화점신촌점","road_address":"서울특별시 서대문구 신촌로 83 현대백화점신촌점 B1","jibun_address":"서울특별시 서대문구 창천동 30-33 현대백화점신촌점 B1","phone_number":"02-3145-2029","x":"126.9359770","y":"37.5558880","distance":1199.8254962490273,"sessionId":"s0zljWoBa_oNbPaCrDFh"},{"name":"카밀로라자네리아","road_address":"서울특별시 마포구 동교로12길 41","jibun_address":"서울특별시 마포구 서교동 382-13","phone_number":"02-332-8622","x":"126.9129112","y":"37.5525766","distance":3237.201770010306,"sessionId":"FjbljWoBZphKmN8QMobk"}],"errorMessage":""}
+[0mGET /?keyword=%E3%84%B4%E3%84%B9%E3%85%87&coordinate=126.9495407,37.554906 [32m200 [0m56.431 ms - 1753[0m
+REQ.QUERY.KEYWORD : 
+REQ.QUERY.COORDINATE : 126.9495407,37.554906
+{"status":"OK","meta":{"totalCount":0,"count":0},"places":[],"errorMessage":""}
+[0mGET /?keyword=&coordinate=126.9495407,37.554906 [32m200 [0m43.697 ms - 97[0m
+REQ.QUERY.KEYWORD : 한국
+REQ.QUERY.COORDINATE : 126.9495407,37.554906
+{"status":"OK","meta":{"totalCount":53636,"count":5},"places":[{"name":"한국상장회사협의회","road_address":"서울특별시 마포구 독막로 279 2층, 7~9층","jibun_address":"서울특별시 마포구 대흥동 485-1","phone_number":"02-2087-7000","x":"126.9446416","y":"37.5455046","distance":1130.3289740947182,"sessionId":"M0XmjWoBZphKmN8QOzmI"},{"name":"KMI한국의학연구소","road_address":"서울특별시 종로구 세종대로23길 54","jibun_address":"서울특별시 종로구 당주동 100","phone_number":"1599-7070","x":"126.9733103","y":"37.5718322","distance":2814.441690199689,"sessionId":"FgXljWoBOAUY6uUlivt3"},{"name":"한국기독교선교 100주년기념교회","road_address":"서울특별시 마포구 양화진길 46 양화진홍보관","jibun_address":"서울특별시 마포구 합정동 144","phone_number":"02-332-9177","x":"126.9113630","y":"37.5464750","distance":3491.402793766156,"sessionId":"jUPljWoBa_oNbPaCIvdR"},{"name":"한국지방재정공제회","road_address":"서울특별시 마포구 마포대로 136 지방재정회관","jibun_address":"서울특별시 마포구 공덕동 253-42","phone_number":"02-3274-2114","x":"126.9531700","y":"37.5463650","distance":1001.485928360729,"sessionId":"q23kjWoBLhmWpuc1-WuK"},{"name":"한국투자증권 마포지점","road_address":"서울특별시 마포구 마포대로 68 마포아크로타워","jibun_address":"서울특별시 마포구 도화동 563 아크로타워 3층","phone_number":"1544-5000","x":"126.9487875","y":"37.5412583","distance":1517.9834966970745,"sessionId":"OzbljWoBZphKmN8QMofk"}],"errorMessage":""}
+[0mGET /?keyword=%ED%95%9C%EA%B5%AD&coordinate=126.9495407,37.554906 [32m200 [0m41.735 ms - 1790[0m
+REQ.QUERY.KEYWORD : 
+REQ.QUERY.COORDINATE : 126.9495407,37.554906
+{"status":"OK","meta":{"totalCount":0,"count":0},"places":[],"errorMessage":""}
+[0mGET /?keyword=&coordinate=126.9495407,37.554906 [36m304 [0m44.249 ms - -[0m
+REQ.QUERY.KEYWORD : undefined
+REQ.QUERY.COORDINATE : undefined
+{"status":"INVALID_REQUEST","errorMessage":"coordinate is INVALID"}
+[0mGET / [36m304 [0m40.003 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m3.262 ms - 150[0m
+[0mGET /searchPlace/?keyword=api&coordinate=126.9783882,37.5666103 [33m404 [0m0.775 ms - 151[0m
+[0mGET /searchPlace/?keyword=apart&coordinate=126.9783882,37.5666103 [33m404 [0m0.647 ms - 151[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npm start`[39m
+
+> wswmexpress@0.0.0 start /home/felixxseol/dev/WSWMexpress
+> node ./bin/www
+
+REQ.QUERY.KEYWORD : 아파트
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":108948,"count":5},"places":[{"name":"천연뜨란채아파트","road_address":"서울특별시 서대문구 독립문로8길 54","jibun_address":"서울특별시 서대문구 천연동 145","phone_number":"","x":"126.9579974","y":"37.5676518","distance":1799.7079760220192,"sessionId":"QFbmjWoBa_oNbPaCYfTi"},{"name":"덕수궁롯데캐슬아파트","road_address":"서울특별시 중구 서소문로9길 28","jibun_address":"서울특별시 중구 순화동 217","phone_number":"","x":"126.9702356","y":"37.5638607","distance":780.3821912903867,"sessionId":"on7mjWoBLhmWpuc1NDgH"},{"name":"정동상림원아파트","road_address":"서울특별시 중구 정동길 21-31","jibun_address":"서울특별시 중구 정동 15-6","phone_number":"02-545-1153","x":"126.9709067","y":"37.5682744","distance":684.4072721226122,"sessionId":"2E7ljWoBa_oNbPaCyyaA"},{"name":"광화문풍림스페이스본아파트","road_address":"서울특별시 종로구 사직로8길 4","jibun_address":"서울특별시 종로구 사직동 9","phone_number":"","x":"126.9686008","y":"37.5744035","distance":1221.881581915749,"sessionId":"Q3HljWoBLhmWpuc1RiCp"},{"name":"경희궁자이3단지아파트","road_address":"","jibun_address":"서울특별시 종로구 평동 4-3","phone_number":"","x":"126.9659909","y":"37.5691438","distance":1127.6274584467642,"sessionId":"YRPmjWoBOAUY6uUlgzM0"}],"errorMessage":""}
+[0mGET /searchPlace/?keyword=%EC%95%84%ED%8C%8C%ED%8A%B8&coordinate=126.9783882,37.5666103 [32m200 [0m174.433 ms - 1596[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npm start`[39m
+
+> wswmexpress@0.0.0 start /home/felixxseol/dev/WSWMexpress
+> node ./bin/www
+
+[0mGET /searchPlace/?keyword=%EC%95%84%ED%8C%8C%ED%8A%B8&coordinate=126.9783882,37.5666103 [33m404 [0m7.005 ms - 151[0m
+[0mGET /searchPlace/?keyword=%EC%95%84%ED%8C%8C%ED%8A%B8&coordinate=126.9783882,37.5666103 [33m404 [0m0.762 ms - 151[0m
+[0mGET /searchPlace/?keyword=%EC%95%84%ED%8C%8C%ED%8A%B8&coordinate=126.9783882,37.5666103 [33m404 [0m0.499 ms - 151[0m
+REQ.QUERY.KEYWORD : 한국
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":53718,"count":5},"places":[{"name":"한국관광공사 서울센터","road_address":"서울특별시 중구 청계천로 40 한국관광공사","jibun_address":"서울특별시 중구 다동 10","phone_number":"02-729-9474","x":"126.9815714","y":"37.5685941","distance":356.65136825400737,"sessionId":"A240mGoBZphKmN8QmMxE"},{"name":"한국프레스센터","road_address":"서울특별시 중구 세종대로 124","jibun_address":"서울특별시 중구 태평로1가 25","phone_number":"02-2001-7114","x":"126.9778959","y":"37.5675592","distance":114.00935133904662,"sessionId":"l3s0mGoBa_oNbPaCdN1Z"},{"name":"한국무역보험공사본사","road_address":"서울특별시 종로구 종로 14","jibun_address":"서울특별시 종로구 서린동 136","phone_number":"1588-3884","x":"126.9788778","y":"37.5698846","distance":366.38674053680285,"sessionId":"pDg0mGoBOAUY6uUlQ05p"},{"name":"한국씨티은행 서울센터","road_address":"서울특별시 종로구 새문안로 50","jibun_address":"서울특별시 종로구 신문로2가 89-29","phone_number":"02-2004-2155","x":"126.9705564","y":"37.5689122","distance":735.7016943227159,"sessionId":"GHg0mGoBa_oNbPaCOsFP"},{"name":"한국정보화진흥원 서울사무소","road_address":"서울특별시 중구 청계천로 14 한국정보화진흥원","jibun_address":"서울특별시 중구 무교동 77","phone_number":"02-6191-2114","x":"126.9789535","y":"37.5688512","distance":253.9378776364175,"sessionId":"ynMzmGoBa_oNbPaC1VMg"}],"errorMessage":""}
+[0mGET /?keyword=%ED%95%9C%EA%B5%AD&coordinate=126.9783882,37.5666103 [32m200 [0m116.156 ms - 1717[0m
+[0mGET /test/ [33m404 [0m0.555 ms - 144[0m
+[0mGET /test/ [33m404 [0m0.573 ms - 144[0m
+[0mGET /test/ [33m404 [0m0.439 ms - 144[0m
+[0mGET /test/ [33m404 [0m0.409 ms - 144[0m
+[0mGET /test/ [33m404 [0m0.364 ms - 144[0m
+[0mGET /test/ [33m404 [0m0.417 ms - 144[0m
+REQ.QUERY.KEYWORD : 한글
+REQ.QUERY.COORDINATE : 126.9783882,37.5666103
+{"status":"OK","meta":{"totalCount":606,"count":5},"places":[{"name":"한그륵","road_address":"서울특별시 종로구 수표로28길 21-11","jibun_address":"서울특별시 종로구 익선동 166-48","phone_number":"02-744-7813","x":"126.9897268","y":"37.5733815","distance":1250.367654724362,"sessionId":"5Tg0mGoBOAUY6uUlRWyr"},{"name":"국립한글박물관","road_address":"서울특별시 용산구 서빙고로 139","jibun_address":"서울특별시 용산구 용산동6가 168-6","phone_number":"02-2124-6200","x":"126.9809191","y":"37.5211823","distance":5052.88201165569,"sessionId":"dGg0mGoBZphKmN8QIGDJ"},{"name":"한글회관","road_address":"서울특별시 종로구 새문안로3길 7","jibun_address":"서울특별시 종로구 신문로1가 58-14","phone_number":"","x":"126.9723980","y":"37.5708950","distance":710.6628757747529,"sessionId":"Ni8zmGoBOAUY6uUlta4Y"},{"name":"서촌 국시한그릇","road_address":"서울특별시 종로구 필운대로 61","jibun_address":"서울특별시 종로구 옥인동 41","phone_number":"010-2496-2576","x":"126.9683271","y":"37.5814787","distance":1874.7869092420353,"sessionId":"vGk0mGoBZphKmN8QMlYY"},{"name":"한글가온길","road_address":"","jibun_address":"서울특별시 종로구 세종로","phone_number":"","x":"126.9727532","y":"37.5716226","distance":746.0110735615581,"sessionId":"MNQ0mGoBe9kwkY1_bCS-"}],"errorMessage":""}
+[0mGET /?keyword=%ED%95%9C%EA%B8%80&coordinate=126.9783882,37.5666103 [32m200 [0m52.075 ms - 1571[0m
+Killed
+
+npm ERR! Linux 4.15.0-47-generic
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v8.10.0
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! wswmexpress@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the wswmexpress@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the wswmexpress package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs wswmexpress
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls wswmexpress
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/felixxseol/dev/WSWMexpress/npm-debug.log
+[33m[nodemon] 1.18.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
