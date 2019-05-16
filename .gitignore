@@ -1,1 +1,7 @@
 .idea/
+
+# nohup output
+nohup.out
+
+# log
+*.log
